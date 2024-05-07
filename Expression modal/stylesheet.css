@@ -1,0 +1,21 @@
+.button {
+    /* Style buttons  */
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+/* CSS for buttons hover effect */
+.button:hover {
+    background-color: #f0f0f0; /* Light gray color */
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+h5 {
+    margin: 0; /* Reset margin for h5 tag */
+}
+.First-Expression {
+    margin-left: 20px; /* Adjust the margin-left value as needed */
+}

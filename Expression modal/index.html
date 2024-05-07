@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Expression builder</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Expression Builder</button>
+        <!--The builder modal-->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!--Modal header-->
+                    <div class="modal-header">
+                        <h5 class="modal-title">Add "Expression Builder"</h5>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+                    <div class="First Expression"><h5><span class="First-Expression">First Expression</span></h5></div>
+                    <!--Modal-body-->
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!-- Field Column -->
+                                <div class="col">
+                                    <h6>Field</h6>
+                                    <input type="text" id="fieldSearchInput" class="form-control" placeholder="Search here...">
+                                    <!-- Commercials-invoice -->
+                                    <details>
+                                      <summary>Commercials-invoice</summary>
+                                      <div class="details-content">
+                                        <div class="h">
+                                        <button class="button" role="button"><span class="text">invoice-type</span></button><br>
+                                        <button class="button" role="button"><span class="text">Country-of-raigin</span></button><br>
+                                        <button class="button" role="button"><span class="text">Currency</span></button><br>
+                                        <button class="button" role="button"><span class="text">type</span></button><br></div>
+                                      </div>
+                                  </details>
+                                                                 <!-- HBItems-بنود بوليصة الشحن -->
+                               <details>
+                                <summary>HBItems-بنود بوليصة الشحن</summary>
+                                <div class="details-content">
+                                  <button class="button" role="button"><span class="text">trade mark</span></button><br>
+                                  <button class="button" role="button"><span class="text">Item description</span></button><br>
+                                  <button class="button" role="button"><span class="text">Date of shipment</span></button><br>
+                                  <button class="button" role="button"><span class="text">Document issuance</span></button>
+                                </div>
+                            </details>
+                        </div>
+                              
+
+
+                                <!-- List Column -->
+                                <div class="col">
+                                    <h6>List</h6>
+                                    <input type="text" id="listSearchInput" class="form-control" placeholder="Search here...">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                      <label class="form-check-label" for="flexCheckChecked">
+                                        Kuwait
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                        Central African Republic
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                        Serbia
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                        Curacao
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                        Saint Vincent
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                        Monaco
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                        United Kingdom
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                        Greece
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                        Saint Barthelemy
+                                      </label>
+                                    </div>
+
+
+                                </div><!--n-->
+                            </div><!--n-->
+                        </div><!--n-->
+                    </div><!--n-->
+                    <!--Modal footer-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--the ennnnnnd-->
+
+
+
+    
+</body>
+
+</html>
